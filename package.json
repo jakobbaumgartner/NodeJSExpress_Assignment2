@@ -2,10 +2,25 @@
   "name": "nodejsexpress_assignment2",
   "version": "1.0.0",
   "description": "Study assignment",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "author": "Jakob B",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakobbaumgartner/NodeJSExpress_Assignment2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jakobbaumgartner/NodeJSExpress_Assignment2/issues"
+  },
+  "homepage": "https://github.com/jakobbaumgartner/NodeJSExpress_Assignment2#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
 }
